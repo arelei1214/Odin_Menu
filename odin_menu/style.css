@@ -23,16 +23,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 200px;
 }
 h1 {
     font-family: Skranki, monospace;
     text-align: center;
 }
 .images {
-    width: 300px;
+    width: 350px;
     height: auto;
     display:inline-block;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .images:hover {
     opacity:0.3;
