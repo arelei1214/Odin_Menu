@@ -39,7 +39,7 @@ h1 {
 }
 .secondphoto {
     float:right;
-    width: 700px;
+    width: 40%;
     display: inline;
     height: auto;
 }
