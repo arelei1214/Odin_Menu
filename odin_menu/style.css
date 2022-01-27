@@ -1,0 +1,45 @@
+.container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+/* Clears floats after image containers */
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33;
+    padding: 5px;
+}
+.body {
+    background-color: rgb(245, 241, 235);
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: Skranki, monospace;
+    text-align: center;
+}
+.images {
+    width: 300px;
+    height: auto;
+    display:inline-block;
+    margin-left: 60px;
+}
+.images:hover {
+    opacity:0.3;
+}
+.secondphoto {
+    float:right;
+    width: 700px;
+    display: inline;
+    height: auto;
+}
