@@ -1,20 +1,13 @@
 .container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-/* Clears floats after image containers */
-.row::after {
-    content: "";
-    clear:both;
-    display: table;
-}
-.row {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(240, 235, 230);
 }
-.column {
-    flex: 33.33;
-    padding: 5px;
+.item {
+    flex: 1;
+    margin-left: 50px;
 }
 .body {
     background-color: rgb(245, 241, 235);
@@ -33,7 +26,7 @@ h1 {
     width: 350px;
     height: auto;
     display:inline-block;
-    margin-left: 50px;
+
 }
 .images:hover {
     opacity:0.3;
